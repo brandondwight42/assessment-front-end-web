@@ -14,8 +14,8 @@ let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-const catImage = document.querySelector(`#cat-piture`)
+const catImage = document.querySelector(`#cat-picture`)
 
 catImage.addEventListener('mouseover', () => {
-	catImage.alert('You look wonderful today!')
+	alert('You look wonderful today!')
 })
